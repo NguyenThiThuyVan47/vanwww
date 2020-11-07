@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta content = "Nguyen Thi Thuy Van">
+<title>Register Form</title>
+<style type="text/css">
+header{
+	width: 800px;
+	height: 70px;
+	background-color: orange;
+}
+
+aside{
+	width: 200px;
+	height: 420px;
+	background-color: yellow;
+	float: left;
+}
+
+section{
+	width: 600px;
+	height: 420px;
+	background-color: lightblue;
+	float: left;
+	padding-left: 20px;
+}
+
+footer{
+	width: 800px;
+	height: 70px;
+	background-color: lightpink;
+	clear: both;
+}
+
+</style>
+</head>
+<body>
+<form action="Register" method="post" name="registrationForm">
+	<header>
+	
+	</header>
+	
+	<aside>
+	
+	</aside>
+	
+	<section>
+		<h3>Register</h3>
+		Name<span style="color: red">*</span><br>
+		<input type="text" name="fname" placeholder="First name">&nbsp<input type="text" name="lname" placeholder="Last name"><br>
+		Username<span style="color: red">*</span><br>
+		<input type="text" name="uname"><br>
+		E-mail<span style="color: red">*</span><br>
+		<input type="email" name="email"><br>
+		Password<span style="color: red">*</span><br>
+		<input type="password" name="pass"><br>
+		Facebook<br>
+		<input type="text" name="facebook"><br>
+		<span style="font-size: 15px">Enter your Facebook profile URL </span> <br>
+		Short Bio<br>
+		<textarea rows="3" cols="20" name="bio"></textarea><br>
+		<span style="font-size: 15px">Share a little information about yourself.</span> <br>
+		<input type="submit" value="Submit">
+	</section>
+	
+	<footer>
+	
+	</footer>
+</form>
+</body>
+</html>
